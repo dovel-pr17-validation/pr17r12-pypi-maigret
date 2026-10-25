@@ -2661,6 +2661,7 @@ files = [
     {file = "pypdf-6.21.2-py3-none-any.whl", hash = "sha256:1d44d1a3a200f25062adff0085b02040e4646431ac2ccac22e42679e91466084"},
     {file = "pypdf-6.21.2.tar.gz", hash = "sha256:0a3e1c5c886a1be03646c16a04827cc166c2a0575c971b26a4bf89686551c2d4"},
 ]
+markers = {main = "extra == \"pdf\""}
 
 [package.dependencies]
 typing_extensions = {version = ">=4.0", markers = "python_version < \"3.11\""}
@@ -3529,4 +3530,4 @@ pdf = ["arabic-reshaper", "python-bidi", "xhtml2pdf"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "efc71ed2a7d16be373e90e10a4a242e4e02d1e198af8aa4d06488ab52a6acb21"
+content-hash = "a3aacfa40f32dd4ec7b55c214b0bff9ec8410830a91b520d7cfdeba571013c06"
