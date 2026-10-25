@@ -38,7 +38,7 @@ classifiers = [
 # poetry install --with dev
 python = "^3.10"
 aiodns = ">=3,<5"
-aiohttp = "^3.12.14"
+aiohttp = "^3.14.5"
 aiohttp-socks = ">=0.10.1,<0.13.0"
 arabic-reshaper = {version = "^3.0.0", optional = true}
 certifi = ">=2025.6.15,<2027.0.0"
